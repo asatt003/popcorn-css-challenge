@@ -4,36 +4,58 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 
-smallshape {
+.smallshape {
     width: 200px;
     height: 200px;
     background-color: #805215;
 }
 
-mediumshape {
-    width: 400px;
-    height: 200px;
-    background-color: #805215;
-}
-
-largeshape {
+.largeshape {
     width: 800px;
-    height: 200px;
+    height: 150px;
     background-color: #805215;
+    margin-top: 20px;
+    margin-left: 20%;
 }
 
-mainbackground {
-    width: 1000px;
-    height: 1000px;
+.mainbackground {
+    width:fit-content;
+    height:fit-content;
     background-color: #D4A76A;
 }
 
-headerbackground {
-    width: 400px;
-    height: 1000px;
+.headerbackground {
+    width: fit-content;
+    height: 200px;
     background-color: #FFDBAA;
 }
 
-headertext {
+.headertext {
     background-color: #553100;
+    margin-left: 700px;
+    
 }
+
+.card{
+    display:inline-block;
+    background:white;
+    width:20%;
+    margin-left: 8%;
+    margin-top:30px;
+    height: 150px;
+    padding:15px;
+  }
+
+.mediumboxposition1 {
+    display:inline-block;
+    margin-left: 4%;
+    width:25%;
+    margin-top:60px;
+    height: 150px;
+    padding:15px;
+    background-color: #805215;
+}
+.main{
+    background: #D4A76A;
+    height:100vh;
+  }
