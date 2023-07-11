@@ -3,3 +3,37 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+smallshape {
+    width: 200px;
+    height: 200px;
+    background-color: #805215;
+}
+
+mediumshape {
+    width: 400px;
+    height: 200px;
+    background-color: #805215;
+}
+
+largeshape {
+    width: 800px;
+    height: 200px;
+    background-color: #805215;
+}
+
+mainbackground {
+    width: 1000px;
+    height: 1000px;
+    background-color: #D4A76A;
+}
+
+headerbackground {
+    width: 400px;
+    height: 1000px;
+    background-color: #FFDBAA;
+}
+
+headertext {
+    background-color: #553100;
+}
